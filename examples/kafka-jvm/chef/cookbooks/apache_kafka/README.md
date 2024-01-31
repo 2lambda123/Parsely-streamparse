@@ -20,13 +20,12 @@ Based off the work of [Federico Gimenez Nieto](https://github.com/fgimenez/kafka
 
 ## Usage
 
-Create a single kafka node with a single zookeeper instance on the same host.
+Create a single Kafka node with a single ZooKeeper instance.
 
 ```bash
 bundle install --path vendor/bundle
 bundle exec berks install
 bundle exec kitchen converge
-bundle exec kitchen login
 ```
 
 **Create a new kafka topic with 3 partitions**
