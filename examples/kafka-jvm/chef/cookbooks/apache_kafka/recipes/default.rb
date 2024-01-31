@@ -3,6 +3,6 @@
 # Recipe:: default
 #
 
-include_recipe "apache_kafka::install"
-include_recipe "apache_kafka::configure"
+include_recipe "apache_kafka::setup"
+include_recipe "apache_kafka::settings"
 include_recipe "apache_kafka::service"
